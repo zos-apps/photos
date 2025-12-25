@@ -1,0 +1,20 @@
+{
+  "name": "@zos-apps/photos",
+  "version": "4.2.0",
+  "description": "Photo viewer and gallery",
+  "main": "src/index.tsx",
+  "types": "src/index.tsx",
+  "files": ["src"],
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "lucide-react": ">=0.300.0"
+  },
+  "keywords": ["zos", "app", "photos"],
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/photos.git"
+  }
+}
