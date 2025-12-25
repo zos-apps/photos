@@ -13,10 +13,27 @@ npm install github:zos-apps/photos
 ## Usage
 
 ```tsx
-import ZPhotos from '@zos-apps/photos';
+import App from '@zos-apps/photos';
 
-function App() {
-  return <ZPhotos />;
+function MyApp() {
+  return <App />;
+}
+```
+
+## Package Spec
+
+App metadata is defined in `package.json` under the `zos` field:
+
+```json
+{
+  "zos": {
+    "id": "ai.hanzo.photos",
+    "name": "Photos",
+    "icon": "🖼️",
+    "category": "entertainment",
+    "permissions": ["storage"],
+    "installable": true
+  }
 }
 ```
 
