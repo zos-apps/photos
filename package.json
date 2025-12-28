@@ -20,7 +20,27 @@
         "height": 650
       },
       "resizable": true
-    }
+    },
+    "about": "Photo library for organizing and editing your images.",
+    "help": [
+      "Import photos",
+      "Create albums",
+      "Edit with tools"
+    ],
+    "docs": "https://zos-apps.github.io/photos",
+    "site": "https://github.com/zos-apps/photos",
+    "shortcuts": [
+      "E Edit",
+      "I Info",
+      "Cmd+A Select all"
+    ],
+    "features": [
+      "Photo organization",
+      "Albums",
+      "Editing tools",
+      "Memories",
+      "Search"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +73,13 @@
     "photos",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
