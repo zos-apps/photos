@@ -40,7 +40,27 @@
       "Editing tools",
       "Memories",
       "Search"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/photos"
+    },
+    "featured": true,
+    "tags": [
+      "media",
+      "audio",
+      "video",
+      "photos"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/photos/issues",
+    "changelog": "https://github.com/zos-apps/photos/releases"
   },
   "scripts": {
     "build": "tsup",
