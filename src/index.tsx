@@ -1,11 +1,11 @@
-import React, { useState, useRef } from 'react';
-
-interface PhotosProps { onClose: () => void; }
+import { useState, useRef } from 'react';
+import type { AppProps } from '@zos-apps/config';
+import { useLocalStorage } from '@zos-apps/config';
 
 interface Photo { id: string; url: string; name: string; date: string; }
 
-const Photos: React.FC<PhotosProps> = ({ onClose }) => {
-  const [photos, setPhotos] = useState<Photo[]>([]);
+const Photos: React.FC<AppProps> = ({ onClose: _onClose }) => {
+  const [photos, setPhotos] = useLocalStorage<Photo[]>('photos-library', []);
   const [selected, setSelected] = useState<Photo | null>(null);
   const fileRef = useRef<HTMLInputElement>(null);
 
